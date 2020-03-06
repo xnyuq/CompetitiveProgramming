@@ -1589,6 +1589,23 @@
     ],
     "timestamp": "Jul/26/2021 08:05"
   },
+  "CF72551107": {
+    "contest_id": 1321,
+    "language": "PyPy 3",
+    "path": "codeforces/1321/B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Journey Planning",
+    "problem_url": "https://codeforces.com/contest/1321/problem/B",
+    "submission_id": "CF72551107",
+    "submission_url": "https://codeforces.com/contest/1321/submission/72551107",
+    "tags": [
+      "data structures",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Mar/06/2020 11:50"
+  },
   "CF72767263": {
     "contest_id": 1323,
     "language": "GNU C++17",
