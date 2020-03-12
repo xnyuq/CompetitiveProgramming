@@ -1589,6 +1589,23 @@
     ],
     "timestamp": "Jul/26/2021 08:05"
   },
+  "CF73061062": {
+    "contest_id": 1324,
+    "language": "PyPy 3",
+    "path": "codeforces/1324/B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Yet Another Palindrome Problem",
+    "problem_url": "https://codeforces.com/contest/1324/problem/B",
+    "submission_id": "CF73061062",
+    "submission_url": "https://codeforces.com/contest/1324/submission/73061062",
+    "tags": [
+      "brute force",
+      "strings",
+      "*1100"
+    ],
+    "timestamp": "Mar/12/2020 21:15"
+  },
   "CF75261740": {
     "contest_id": 1092,
     "language": "GNU C++14",
