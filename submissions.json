@@ -1589,6 +1589,23 @@
     ],
     "timestamp": "Jul/26/2021 08:05"
   },
+  "CF75816708": {
+    "contest_id": 863,
+    "language": "PyPy 3",
+    "path": "codeforces/863/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Quasi-palindrome",
+    "problem_url": "https://codeforces.com/contest/863/problem/A",
+    "submission_id": "CF75816708",
+    "submission_url": "https://codeforces.com/contest/863/submission/75816708",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Apr/08/2020 15:40"
+  },
   "CF75893432": {
     "contest_id": 1333,
     "language": "GNU C++17",
