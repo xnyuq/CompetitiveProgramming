@@ -22,22 +22,23 @@ void solve() {
     int n, m, k;
     cin >> n >> m >> k;
     vll s1(n+1), s2(m+1);
+    vi a(n), b(m);
     s1[0] = s2[0] = 0;
     rep(i, 0, n) {
-        int tmp;
-        cin >> tmp; 
-        s1[i+1] = s1[i] + tmp;
+        cin >> a[i];
+        s1[i+1] = s1[i] + a[i];
     }
     rep(i, 0, m) {
-        int tmp;
-        cin >> tmp;
-        s2[i+1] = s2[i] + tmp;
+        cin >> b[i];
+        s2[i+1] = s2[i] + b[i];
     }
-    int ans = 0;
-    int j = m;
+    ll ans = 0;
     for (int i = 0; i <= n && s1[i] <= k; ++i) {
-        while (s2[j] > k - s1[i]) --j;
-        ans = max(ans, i + j);
+        ll x = k - s1[i], tmp = i;
+        auto it = upper_bound(all(s2), x);
+        --it;
+        tmp += it - s2.begin();
+        ans = max(ans, tmp);
     }
     cout << ans << "\n";
 }
