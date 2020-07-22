@@ -1,4 +1,20 @@
 {
+  "AC15357498": {
+    "contest_id": "abc158",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc158/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Tax Increase",
+    "problem_url": "https://atcoder.jp/contests/abc158/tasks/abc158_c",
+    "submission_id": "AC15357498",
+    "submission_url": "https://atcoder.jp/contests/abc158/submissions/15357498",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jul/22/2020 13:21"
+  },
   "AC15357576": {
     "contest_id": "abc158",
     "language": "C++ (GCC 9.2.1)",
