@@ -27,6 +27,10 @@ void solve() {
     int ans = 1, i = 1;
     set<int> s{1};
     while (a[i] != 2) {
+        if (i == a[i]) {
+            cout << -1;
+            return;
+        }
         i = a[i];
         if (i != 2 && s.find(i) != s.end()) {
             cout << -1;
