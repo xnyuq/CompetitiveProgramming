@@ -16,13 +16,13 @@ typedef vector<ll> vll;
 #define rall(a) (a).rbegin(), (a).rend()
 #define INF 1000000000
 #define MOD 1000000007
-int dp[3001][3001];
 
 void solve() {
     string a, b, ans;
     cin >> a >> b;
     a = ' ' + a;
     b = ' ' + b;
+    unordered_map<int, map<int, int>> dp;
     //map<int, map<int, ii>> tr;
     rep(i, 1, sz(a)) {
         rep(j, 1, sz(b)) {
