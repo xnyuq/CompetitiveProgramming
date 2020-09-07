@@ -1589,6 +1589,24 @@
     ],
     "timestamp": "Jul/26/2021 08:05"
   },
+  "CF92115468": {
+    "contest_id": 1409,
+    "language": "GNU C++17",
+    "path": "codeforces/1409/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Yet Another Array Restoration",
+    "problem_url": "https://codeforces.com/contest/1409/problem/C",
+    "submission_id": "CF92115468",
+    "submission_url": "https://codeforces.com/contest/1409/submission/92115468",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*1200"
+    ],
+    "timestamp": "Sep/07/2020 14:56"
+  },
   "CF92212529": {
     "contest_id": 1409,
     "language": "GNU C++17",
