@@ -2,12 +2,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 int len(int n) {
-    int cnt = 0;
-    while (n) {
-        ++cnt;
-        n /= 10;
-    }
-    return cnt;
+    stringstream ss;
+    ss << n;
+    return ss.str().length();
 }
 void solve() {
     int n;
