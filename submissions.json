@@ -1,4 +1,20 @@
 {
+  "AC18401265": {
+    "contest_id": "abc106",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc106/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Garden",
+    "problem_url": "https://atcoder.jp/contests/abc106/tasks/abc106_a",
+    "submission_id": "AC18401265",
+    "submission_url": "https://atcoder.jp/contests/abc106/submissions/18401265",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Nov/25/2020 15:40"
+  },
   "AC18488631": {
     "contest_id": "abc181",
     "language": "C (GCC 9.2.1)",
