@@ -1,4 +1,20 @@
 {
+  "AC18602221": {
+    "contest_id": "abc178",
+    "language": "C (GCC 9.2.1)",
+    "path": "atcoder/abc178/B.c",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Product Max",
+    "problem_url": "https://atcoder.jp/contests/abc178/tasks/abc178_b",
+    "submission_id": "AC18602221",
+    "submission_url": "https://atcoder.jp/contests/abc178/submissions/18602221",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Dec/05/2020 23:21"
+  },
   "AC18683997": {
     "contest_id": "arc110",
     "language": "C++ (GCC 9.2.1)",
