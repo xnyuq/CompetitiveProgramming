@@ -1,4 +1,20 @@
 {
+  "AC19212397": {
+    "contest_id": "abc181",
+    "language": "C (GCC 9.2.1)",
+    "path": "atcoder/abc181/C.c",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Collinearity",
+    "problem_url": "https://atcoder.jp/contests/abc181/tasks/abc181_c",
+    "submission_id": "AC19212397",
+    "submission_url": "https://atcoder.jp/contests/abc181/submissions/19212397",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jan/05/2021 11:32"
+  },
   "AC19359478": {
     "contest_id": "arc110",
     "language": "C++ (GCC 9.2.1)",
