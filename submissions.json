@@ -1,4 +1,22 @@
 {
+  "CF110876121": {
+    "contest_id": 1177,
+    "language": "PyPy 3",
+    "path": "codeforces/1177/B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Digits Sequence (Hard Edition)",
+    "problem_url": "https://codeforces.com/contest/1177/problem/B",
+    "submission_id": "CF110876121",
+    "submission_url": "https://codeforces.com/contest/1177/submission/110876121",
+    "tags": [
+      "binary search",
+      "divide and conquer",
+      "implementation",
+      "*1800"
+    ],
+    "timestamp": "Mar/24/2021 15:50"
+  },
   "CF110894379": {
     "contest_id": 1483,
     "language": "GNU C++17",
