@@ -1,4 +1,20 @@
 {
+  "CF114734072": {
+    "contest_id": 1519,
+    "language": "PyPy 3",
+    "path": "codeforces/1519/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Red and Blue Beans",
+    "problem_url": "https://codeforces.com/contest/1519/problem/A",
+    "submission_id": "CF114734072",
+    "submission_url": "https://codeforces.com/contest/1519/submission/114734072",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "May/01/2021 08:48"
+  },
   "CF114757104": {
     "contest_id": 1519,
     "language": "GNU C++17",
