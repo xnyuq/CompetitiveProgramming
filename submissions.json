@@ -1,4 +1,21 @@
 {
+  "CF115845421": {
+    "contest_id": 1520,
+    "language": "GNU C++17",
+    "path": "codeforces/1520/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Do Not Be Distracted!",
+    "problem_url": "https://codeforces.com/contest/1520/problem/A",
+    "submission_id": "CF115845421",
+    "submission_url": "https://codeforces.com/contest/1520/submission/115845421",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "May/10/2021 15:29"
+  },
   "CF115846597": {
     "contest_id": 1520,
     "language": "PyPy 3",
