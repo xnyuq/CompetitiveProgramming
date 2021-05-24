@@ -1,4 +1,20 @@
 {
+  "AC22894526": {
+    "contest_id": "abc202",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc202/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Three Dice",
+    "problem_url": "https://atcoder.jp/contests/abc202/tasks/abc202_a",
+    "submission_id": "AC22894526",
+    "submission_url": "https://atcoder.jp/contests/abc202/submissions/22894526",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "May/24/2021 19:44"
+  },
   "AC22894589": {
     "contest_id": "abc202",
     "language": "C++ (GCC 9.2.1)",
