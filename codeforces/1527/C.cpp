@@ -20,7 +20,6 @@
 #include <set>
 #include <stack>
 #include <vector>
-#include <unordered_map>
 using namespace std;
 
 template <typename A, typename B>
@@ -59,7 +58,7 @@ int main() {
     while (t--) {
         int n;
         cin >> n;
-        unordered_map<int, int64_t> sum;
+        map<int, int64_t> sum;
         vector<int64_t> dp(n);
         vector<int> a(n);
         for (auto &i : a) cin >> i;
