@@ -26,37 +26,40 @@ template<typename Head, typename... Tail> void dbg_out(Head H, Tail... T) { cerr
 #else
 #define dbg(...)
 #endif
-const int MX = 2e5 + 10;
-vector<int> adj[MX];
-vector<bool> vis(MX);
-int ans = 0;
 
-void dfs(int n) {
-    if (vis[n]) return;
-    ++ans; vis[n] = true;
-    for (auto& i: adj[n]) dfs(i);
+const int MX = 2e5 + 10;
+vector<int> comp;
+bool vis[MX];
+set<int> adj[MX];
+
+void dfs(int s) {
+    if (vis[s]) return;
+    vis[s] = true;
+    comp.push_back(s);
+    for (auto& u: adj[s]) dfs(u);
 }
+
 int main() {
     ios_base::sync_with_stdio(false);
 #ifndef QUYNX_DEBUG 
     cin.tie(nullptr);
 #endif
-    int n;
-    cin >> n;
-    vector<int> arr(n);
+    int N;
+    cin >> N;
+    vector<int> arr(N);
+    set<int> vertices;
     for (auto& i: arr) cin >> i;
-    vector<bool> ex(MX);
-    for (int i = 0; i < n/2; ++i) {
-        if (arr[i] != arr[n - i - 1]) {
-            ex[arr[i]] = ex[arr[n-i-1]] = true;
-            adj[arr[i]].push_back(arr[n-i-1]);
-            adj[arr[n-i-1]].push_back(arr[i]);
-        }
+    for (auto& i: arr) vertices.insert(i);
+    map<int,bool> mp;
+    for (int i = 0; i < N / 2; ++i) {
+        if (arr[i] != arr[N-i-1]) adj[arr[i]].insert(arr[N-i-1]), adj[arr[N-i-1]].insert(arr[i]);
     }
-    for (int i = 1; i < MX; ++i) {
-        if (!ex[i] || vis[i]) continue;
-        dfs(i);
-        --ans;
+    int ans = 0;
+    for (auto& u: vertices) {
+        if (vis[u]) continue;
+        dfs(u);
+        ans += (int)comp.size() - 1;
+        comp.clear();
     }
     cout << ans << "\n";
 }
