@@ -33,16 +33,6 @@ void dfs(int u, vector<int> adj[], vector<bool>& vis) {
     for (auto& i: adj[u]) dfs(i, adj, vis);
 }
 
-int64_t pow(int a, int b, int mod) {
-    int64_t res = 1;
-    while (b > 0) {
-        if (b&1) res = res * a % mod;
-        a = int64_t(a) * a % mod;
-        b >>= 1;
-    }
-    return res;
-}
-
 int main() {
     ios_base::sync_with_stdio(false);
 #ifndef QUYNX_DEBUG 
@@ -69,7 +59,11 @@ int main() {
             ++cc;
             dfs(i, adj, vis);
         }
-        int64_t ans = pow(2, cc, mod);
+        int64_t ans = 1;
+        while (cc--) {
+            ans <<= 1;
+            ans %= mod;
+        }
         cout << ans << "\n";
     }
 }
