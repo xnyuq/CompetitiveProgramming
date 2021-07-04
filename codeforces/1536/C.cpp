@@ -37,15 +37,15 @@ int main() {
     while (t--) {
         int n;
         cin >> n;
+        string s;
+        cin >> s;
         int d = 0, k = 0;
         map<pair<int,int>, int> mp;
         for (int i = 0; i < n; ++i) {
-            char c;
-            cin >> c;
-            if (c == 'D') ++d;
+            if (s[i] == 'D') ++d;
             else ++k;
-            int g = gcd(d,k);
-            cout << ++mp[{d/g, k/g}] << " ";
+            if (d && k) cout << ++mp[{d/gcd(d,k), k/gcd(d,k)}] << " ";
+            else cout << ++mp[{(bool)d, (bool)k}] << " ";
         }
         cout << "\n";
     }
