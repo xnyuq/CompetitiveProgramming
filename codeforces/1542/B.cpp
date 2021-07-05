@@ -37,14 +37,12 @@ int main() {
     while (t--) {
         int n, a, b;
         cin >> n >> a >> b;
-        if (a == 1) {
-            if (a % b == n % b) {
-                cout << "Yes\n";
-            }
-            else {
-                cout << "No\n";
-            }
-        } 
+        if (a == 1 && n % b == a % b) {
+            cout << "Yes\n";
+        }
+        else if (a == 1) {
+            cout << "No\n";
+        }
         else {
             int64_t k = 1;
             bool found = false;
