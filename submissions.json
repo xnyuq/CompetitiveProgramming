@@ -1,4 +1,21 @@
 {
+  "CF121471042": {
+    "contest_id": 1136,
+    "language": "GNU C++17",
+    "path": "codeforces/1136/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Nastya Is Playing Computer Games",
+    "problem_url": "https://codeforces.com/contest/1136/problem/B",
+    "submission_id": "CF121471042",
+    "submission_url": "https://codeforces.com/contest/1136/submission/121471042",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Jul/06/2021 18:06"
+  },
   "CF121564059": {
     "contest_id": 1492,
     "language": "GNU C++17",
