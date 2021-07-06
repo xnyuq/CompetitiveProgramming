@@ -45,7 +45,7 @@ int main() {
             dp[i] = dp[i-1] ^ arr[i];
         }
         bool found = false;
-        if (n == 2 && dp[n-1] == 0) {
+        if (n % 2 == 0 && dp[n-1] == 0) {
             found = true;
         }
         else {
