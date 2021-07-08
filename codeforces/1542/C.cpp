@@ -27,7 +27,7 @@ template<typename Head, typename... Tail> void dbg_out(Head H, Tail... T) { cerr
 #define dbg(...)
 #endif
 
-const int64_t MOD = 1e9+7;
+const int MOD = 1e9+7;
 
 int main() {
     ios_base::sync_with_stdio(false);
@@ -37,14 +37,14 @@ int main() {
     int t;
     cin >> t;
     while (t--) {
-        int64_t N;
-        cin >> N;
-        int64_t ans = N % MOD;
+        int64_t n;
+        cin >> n;
+        int64_t ans = n % MOD;
         int64_t cur = 1;
         for (int i = 1;; ++i) {
             cur = lcm(cur, i);
-            if (cur > N) break;
-            ans += N / cur;
+            if (cur > n) break;
+            ans += n / cur;
             ans %= MOD;
         }
         cout << ans << "\n";
