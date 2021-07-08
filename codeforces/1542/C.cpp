@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 
 
-const int64_t MOD = int(1e9)+7;
+const int64_t MOD = 1e9+7;
 
 int main() {
 
