@@ -14,13 +14,12 @@
 #include <ctime>
 #include <cstring>
 #include <iomanip>
+using namespace std;
 
 
 const int64_t MOD = 1e9+7;
 
 int main() {
-
-    using namespace std;
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
     int t;
