@@ -1,0 +1,21 @@
+{
+  "CF123786534": {
+    "contest_id": 1553,
+    "language": "GNU C++17",
+    "path": "codeforces/1553/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Backspace",
+    "problem_url": "https://codeforces.com/contest/1553/problem/D",
+    "submission_id": "CF123786534",
+    "submission_url": "https://codeforces.com/contest/1553/submission/123786534",
+    "tags": [
+      "dp",
+      "greedy",
+      "strings",
+      "two pointers",
+      "*1500"
+    ],
+    "timestamp": "Jul/26/2021 08:05"
+  }
+}
