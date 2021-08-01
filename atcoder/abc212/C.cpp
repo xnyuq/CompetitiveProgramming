@@ -36,6 +36,7 @@ int main() {
     vector<int> A(N), B(M);
     for (auto& i: A) cin >> i;
     for (auto& i: B) cin >> i;
+    sort(A.begin(), A.end());
     sort(B.begin(), B.end());
     int ans = abs(A[0] - B[0]);
     for (auto& i: A) {
