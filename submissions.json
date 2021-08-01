@@ -1295,6 +1295,22 @@
     ],
     "timestamp": "Jul/30/2021 04:23"
   },
+  "AC24704215": {
+    "contest_id": "abc212",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc212/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Alloy",
+    "problem_url": "https://atcoder.jp/contests/abc212/tasks/abc212_a",
+    "submission_id": "AC24704215",
+    "submission_url": "https://atcoder.jp/contests/abc212/submissions/24704215",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Aug/01/2021 08:09"
+  },
   "AC24704338": {
     "contest_id": "abc212",
     "language": "C++ (GCC 9.2.1)",
