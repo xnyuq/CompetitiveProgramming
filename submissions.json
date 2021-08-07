@@ -1407,6 +1407,22 @@
     ],
     "timestamp": "Aug/04/2021 10:28"
   },
+  "AC24816685": {
+    "contest_id": "agc029",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/agc029/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Irreversible operation",
+    "problem_url": "https://atcoder.jp/contests/agc029/tasks/agc029_a",
+    "submission_id": "AC24816685",
+    "submission_url": "https://atcoder.jp/contests/agc029/submissions/24816685",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Aug/07/2021 07:10"
+  },
   "AC24816884": {
     "contest_id": "jsc2019-qual",
     "language": "C++ (GCC 9.2.1)",
