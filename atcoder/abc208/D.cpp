@@ -29,7 +29,9 @@ int main() {
     for (int k = 1; k <= N; ++k) {
         for (int i = 1; i <= N; ++i) {
             for (int j = 1; j <= N; ++j) {
-                dis[i][j] = min(dis[i][j], dis[i][k] + dis[k][j]);
+                if (dis[i][j] > dis[i][k] + dis[k][j] && dis[i][k] != INF && dis[k][j] != INF) {
+                    dis[i][j] = dis[i][k] + dis[k][j];
+                }
                 if (dis[i][j] != INF) ans += dis[i][j];
             }
         }
