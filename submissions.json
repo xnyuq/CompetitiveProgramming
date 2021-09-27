@@ -3353,6 +3353,25 @@
     ],
     "timestamp": "Aug/19/2021 08:57"
   },
+  "CF129969332": {
+    "contest_id": 1551,
+    "language": "GNU C++17",
+    "path": "codeforces/1551/B2.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B2",
+    "problem_name": "Wonderful Coloring - 2",
+    "problem_url": "https://codeforces.com/contest/1551/problem/B2",
+    "submission_id": "CF129969332",
+    "submission_url": "https://codeforces.com/contest/1551/submission/129969332",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Sep/27/2021 11:45"
+  },
   "CF129981647": {
     "contest_id": 1548,
     "language": "GNU C++17",
