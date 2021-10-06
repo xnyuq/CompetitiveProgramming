@@ -5,14 +5,15 @@ Submissions
 ## Introduction
 
 A repository to keep track of problem solving practice, containing solutions from platforms:
-* Codeforces &nbsp; [![Codeforces](https://run.kaist.ac.kr/badges/codeforces/quynx.svg)](https://codeforces.com/profile/quynx)
-* AtCoder &nbsp; [![AtCoder](https://run.kaist.ac.kr/badges/atcoder/quynx.svg)](https://atcoder.jp/users/quynx)
+* Codeforces &nbsp; [![Codeforces](https://cp-logo.vercel.app/codeforces/quynx?logo=true)](https://codeforces.com/profile/quynx)
+* AtCoder &nbsp; [![AtCoder](https://cp-logo.vercel.app/atcoder/quynx?logo=true)](https://atcoder.jp/users/quynx)
 
 
 ## Contents
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+262 | [A - CQXYM Count Permutations](https://codeforces.com/contest/1581/problem/A) | [GNU C++17](./codeforces/1581/A.cpp) | `combinatorics` `math` `number theory` `*800` | Oct/06/2021 19:36 | 
 261 | [C - Cellular Network](https://codeforces.com/contest/702/problem/C) | [GNU C++17](./codeforces/702/C.cpp) | `binary search` `implementation` `two pointers` `*1500` | Oct/06/2021 18:50 | 
 260 | [B - Books](https://codeforces.com/contest/279/problem/B) | [GNU C++17](./codeforces/279/B.cpp) | `binary search` `brute force` `implementation` `two pointers` `*1400` | Oct/06/2021 18:22 | 
 259 | [E2 - Array Optimization by Deque](https://codeforces.com/contest/1579/problem/E2) | [GNU C++17](./codeforces/1579/E2.cpp) | `data structures` `greedy` `*1700` | Sep/30/2021 09:13 | 
