@@ -1519,6 +1519,22 @@
     ],
     "timestamp": "Aug/13/2021 07:50"
   },
+  "AC26396355": {
+    "contest_id": "abc220",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc220/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "FG operation",
+    "problem_url": "https://atcoder.jp/contests/abc220/tasks/abc220_d",
+    "submission_id": "AC26396355",
+    "submission_url": "https://atcoder.jp/contests/abc220/submissions/26396355",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Oct/07/2021 13:23"
+  },
   "AC26396708": {
     "contest_id": "abc221",
     "language": "C++ (GCC 9.2.1)",
