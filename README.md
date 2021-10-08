@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+263 | [E - LEQ](https://atcoder.jp/contests/abc221/tasks/abc221_e) | [C++ (GCC 9.2.1)](./atcoder/abc221/E.cpp) | `AtCoder` `*500` | Oct/08/2021 20:20 | 
 262 | [A - CQXYM Count Permutations](https://codeforces.com/contest/1581/problem/A) | [GNU C++17](./codeforces/1581/A.cpp) | `combinatorics` `math` `number theory` `*800` | Oct/06/2021 19:36 | 
 261 | [C - Cellular Network](https://codeforces.com/contest/702/problem/C) | [GNU C++17](./codeforces/702/C.cpp) | `binary search` `implementation` `two pointers` `*1500` | Oct/06/2021 18:50 | 
 260 | [B - Books](https://codeforces.com/contest/279/problem/B) | [GNU C++17](./codeforces/279/B.cpp) | `binary search` `brute force` `implementation` `two pointers` `*1400` | Oct/06/2021 18:22 | 
