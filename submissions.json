@@ -1599,6 +1599,22 @@
     ],
     "timestamp": "Oct/11/2021 09:47"
   },
+  "AC26501142": {
+    "contest_id": "agc043",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/agc043/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Range Flip Find Route",
+    "problem_url": "https://atcoder.jp/contests/agc043/tasks/agc043_a",
+    "submission_id": "AC26501142",
+    "submission_url": "https://atcoder.jp/contests/agc043/submissions/26501142",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Oct/11/2021 10:36"
+  },
   "AC26580660": {
     "contest_id": "abc222",
     "language": "C++ (GCC 9.2.1)",
