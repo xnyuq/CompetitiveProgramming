@@ -1599,6 +1599,22 @@
     ],
     "timestamp": "Oct/11/2021 09:47"
   },
+  "AC26616694": {
+    "contest_id": "abc222",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc222/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Swiss-System Tournament",
+    "problem_url": "https://atcoder.jp/contests/abc222/tasks/abc222_c",
+    "submission_id": "AC26616694",
+    "submission_url": "https://atcoder.jp/contests/abc222/submissions/26616694",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Oct/17/2021 15:14"
+  },
   "AC26673019": {
     "contest_id": "abc223",
     "language": "C++ (GCC 9.2.1)",
