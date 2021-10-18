@@ -1599,6 +1599,22 @@
     ],
     "timestamp": "Oct/11/2021 09:47"
   },
+  "AC26673105": {
+    "contest_id": "abc223",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc223/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Restricted Permutation",
+    "problem_url": "https://atcoder.jp/contests/abc223/tasks/abc223_d",
+    "submission_id": "AC26673105",
+    "submission_url": "https://atcoder.jp/contests/abc223/submissions/26673105",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Oct/18/2021 20:01"
+  },
   "CF101123279": {
     "contest_id": 1455,
     "language": "GNU C++17",
