@@ -14,21 +14,20 @@ template<typename Head, typename... Tail> void dbg_out(Head H, Tail... T) { cerr
 
 vector<int> child;
 vector<vector<int>> adj;
-vector<bool> vis;
-unordered_map<int, bool> inStack;
+vector<bool> vis, tvis;
 bool containCycle = false;
 
 void dfs(int u) {
     if (vis[u]) return;
     vis[u] = true;
-    inStack[u] = true;
+    tvis[u] = true;
     if (containCycle) return;
     for (auto& v: adj[u]) {
         if (!vis[v]) {
             dfs(v);
-            inStack[v] = false;
+            tvis[v] = false;
         }
-        else if (inStack[v]) {
+        else if (tvis[v]) {
             containCycle = true;
             return;
         }
@@ -55,8 +54,8 @@ int main() {
     }
     for (int i = 1; i <= N; ++i) {
         if (vis[i]) continue;
-        
-        inStack.clear();
+        tvis.assign(N+1, false);
+        stack<int> st;
         dfs(i);
         if (containCycle) {
             break;
